@@ -3,3 +3,51 @@
     padding: 0px;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.colorh1 span {
+    color: orange;
+}
+
+section {
+    display: flex;
+    margin-bottom: 150px;
+}
+.top-banner {
+    background-image: url(img/shapes/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 60%;
+}
+
+.about-me{
+    margin:     10px 0px 25px 0px;
+}
+
+.alart{
+    margin: 25px 0px;
+}
+
+.button {
+    font-weight: 500;
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 6px;
+}
